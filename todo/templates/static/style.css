@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(45deg, #1a1a2e, #162447);
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #e94560;
+}
+
+.form-control, .btn {
+    border-radius: 50px;
+}
+
+.list-group-item {
+    background: #162447;
+    border: none;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+}
+
+.btn-primary {
+    background: #1f4068;
+    border: none;
+}
+
+.btn-success, .btn-info, .btn-danger {
+    border: none;
+}
+
+.btn-success {
+    background: #28a745;
+}
+
+.btn-info {
+    background: #17a2b8;
+}
+
+.btn-danger {
+    background: #dc3545;
+}
